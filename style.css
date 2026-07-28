@@ -108,7 +108,7 @@ section { padding-top: 4.5rem; }
   margin-top: 0.4rem;
   width: 24%;
   min-width: 80px;   /* floor: never smaller than this on narrow screens */
-  max-width: 140px;  /* ceiling: never larger than this on wide screens  */
+  max-width: 200px;  /* ceiling: never larger than this on wide screens  */
 }
 .avatar img {
   width: 100%;       /* fill the .avatar container */
