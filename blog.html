@@ -3,20 +3,40 @@ layout: default
 title: Blog
 ---
 
-<h1>Blog</h1>
+<section id="blog">
 
-{% for post in site.posts %}
-  <article>
-    <h2>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </h2>
+  <div class="section-label">Blog</div>
 
-    <p>
+  <h1>Writing</h1>
+
+  <p class="blog-intro">
+    Thoughts on research, technology, privacy, AI, and other things I'm interested in.
+  </p>
+
+  {% for post in site.posts %}
+
+  <article class="blog-preview">
+
+    <p class="blog-date">
       {{ post.date | date: "%B %-d, %Y" }}
     </p>
 
-    <p>
-      {{ post.excerpt }}
-    </p>
+    <h2>
+      <a href="{{ post.url | relative_url }}">
+        {{ post.title }}
+      </a>
+    </h2>
+
+    {% if post.description %}
+      <p class="excerpt">{{ post.description }}</p>
+    {% else %}
+      <p class="excerpt">
+        {{ post.excerpt | strip_html | truncatewords: 40 }}
+      </p>
+    {% endif %}
+
   </article>
-{% endfor %}
+
+  {% endfor %}
+
+</section>
