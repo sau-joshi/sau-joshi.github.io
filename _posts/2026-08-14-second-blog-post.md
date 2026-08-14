@@ -5,7 +5,6 @@ date: 2026-08-14
 categories: [chitchat]
 ---
 
-# First blog post
 Namaste! Welcome to my second blog post.
 
 ## Objective
