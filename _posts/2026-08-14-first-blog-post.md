@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "first post"
+title: "second post"
 date: 2026-08-14
 categories: [chitchat]
 ---
@@ -18,4 +18,3 @@ technologies and humans impact each other and how to make the best of it all.
 
 ## Why
 Keeping an open mind.. Sau.
-
