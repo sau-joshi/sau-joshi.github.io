@@ -18,7 +18,7 @@ There are two factors that will affect the way we use AI: *structure* and *capab
 
 ## hyper-scaling: storage and tools
 
-Another interesting [article](https://doi.org/10.1080/1369118X.2026.2717382) I ust read talks about how higher education has been duped by corporate computing systems into a dependency of sorts that impacts "knowledge production practices and scholarly infrastructure."
+Another interesting [article](https://doi.org/10.1080/1369118X.2026.2717382) I just read talks about how higher education has been duped by corporate computing systems into a dependency of sorts that impacts "knowledge production practices and scholarly infrastructure."
 
 Two cases are highlighted. First is the Google cloud computing services (including Google workspace apps, etc.) that started with unlimited strorage but has since capped storage and introduced tiered service levels. Second is the generative AI tool included with Microsoft 365, better known as Copilot, which initially started out as an optional enhancement, but without an easy way to disable if at all.
 
