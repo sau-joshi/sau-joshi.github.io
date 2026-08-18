@@ -1,3 +1,10 @@
+---
+layout: post
+title: "AI and Structure"
+date: 2026-08-18
+categories: [ai, structure]
+---
+
 ## AI: capability vs structure
 
 I read an interesting [article](https://www.linkedin.com/pulse/what-has-change-before-ai-makes-anything-cheaper-pratik-karki-qxpwc/) today by Pratik Karki, a young Nepali entrepreneur on the international AI stage. He is the founder of [Anthromind](https://www.anthromind.com/).
